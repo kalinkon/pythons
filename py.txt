@@ -1,0 +1,3 @@
+bstr = "????"
+for i in bstr.decode('utf-8'):
+	print i

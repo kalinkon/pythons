@@ -13,6 +13,31 @@ print(testboolCheck)
 
 
 
+numberlist1=[1,2,3,4,5]
+numberlist2=[10,20,30,40,50,51] 
+testtuplelist=list(zip(numberlist1,numberlist2))
+
+print(testtuplelist)
+print(testtuplelist[0][1])
+
+testtupleZipObject=zip(numberlist1,numberlist2)
+
+
+
+
+result = map(lambda x,y:x+y,numberlist1,numberlist2)
+
+print(list(result))
+
+
+# [11, 22, 33, 44, 55]
+
+
+
+
+
+
+
 #>>>>>>>>>>>>>>>>MAP<<<<<<<<<<<<<<<<<
 # def fahrenheit(T):
 #     return ((float(9)/5)*T + 32)

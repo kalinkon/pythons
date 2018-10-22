@@ -1,0 +1,1 @@
+print("I said " + ("Hey " * 2))

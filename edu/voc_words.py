@@ -1,6 +1,6 @@
 file = open("/home/linkon/Desktop/python/edu/voc_words.txt","r")
 
-wordlist = file.readlines()
+wordlist = file.readlines().replace("\n","")
 
 print(wordlist)
 
